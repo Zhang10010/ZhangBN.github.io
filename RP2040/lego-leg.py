@@ -39,11 +39,11 @@ yellow.duty_u16(0)
 white.duty_u16(0)
 
 # Setting up adafruit io info
-clientID = "7904a901-78d7-49bb-a245-838307f0b292"
+clientID = "7904a901-78d7-49bb-a245-838307f0b292" # any random unique stuff
 url = "io.adafruit.com"
 username = "ZhangBN"
-aioKey = "aio_BPop04H7u7h3nZivmqDrPDjz1Zo4"
-feedID1 = 'lego-leg'
+aioKey = "#########" # enter your AIO key
+feedID1 = 'lego-leg' 
 feedID2 = 'lego-leg-2'
 legoLeg1 = bytes('{:s}/feeds/{:s}'.format(username,feedID1),'utf-8')
 legoLeg2 = bytes('{:s}/feeds/{:s}'.format(username,feedID2),'utf-8')
