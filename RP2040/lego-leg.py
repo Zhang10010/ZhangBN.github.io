@@ -42,7 +42,7 @@ white.duty_u16(0)
 clientID = "7904a901-78d7-49bb-a245-838307f0b292" # any random unique stuff
 url = "io.adafruit.com"
 username = "ZhangBN"
-aioKey = "#########" # enter your AIO key
+aioKey = "#########" # my AIO key
 feedID1 = 'lego-leg' 
 feedID2 = 'lego-leg-2'
 legoLeg1 = bytes('{:s}/feeds/{:s}'.format(username,feedID1),'utf-8')
