@@ -116,6 +116,7 @@ def on_off():
             green.duty_u16(0)
             print('Disconnected with IO')
             print('Done')
+            sys.exit()
 
 # Sending angles to broker and io
 keyStop = 0
