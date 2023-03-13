@@ -1,6 +1,6 @@
 # Arduino Nano RP2040 Code
 These codes need to run on RP2040.   
-* The main code that controls the LEGO leg wirelessly is lego_leg.py. It also updates angles to [Adafruit IO]([https://https://io.adafruit.com](https://io.adafruit.com/ZhangBN/dashboards/lego-leg))   
+* The main code that controls the LEGO leg wirelessly is lego_leg.py. It also updates angles to [Adafruit IO](https://io.adafruit.com/ZhangBN/dashboards/lego-leg)
 * secrets.py contains wifi connection info   
 * mqtt_CBR.py is used to connect to wifi   
 * valueMath.py makes it easy to do math with list because micropython doesn't have numpy
